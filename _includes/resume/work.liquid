@@ -43,7 +43,7 @@
             {% if content.url %}
               <a href="{{ content.url }}" target="_blank" rel="noopener noreferrer">{{ content.position }}</a>
             {% else %}
-              <a href="javascript:void(0);">{{ content.position }}</a>
+              <span class="pscolor"> {{ content.position }} </span>
             {% endif %}
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>

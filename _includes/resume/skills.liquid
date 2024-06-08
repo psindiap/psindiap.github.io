@@ -7,12 +7,12 @@
             <!-- Display content name and keywords in a single row -->
             <td>
               <span class="list-group-category">
-                <a href="javascript:void(0);">
+                <span class="pscolor">
                   {% if content.icon %}
                     <i class="{{ content.icon }}"></i>
                   {% endif %}
                   {{ content.name }} -
-                </a>
+                </span>
               </span>
               <span class="list-group-name">
                 {% for item in content.keywords %}

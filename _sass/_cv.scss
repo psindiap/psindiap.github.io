@@ -10,6 +10,10 @@ table.table-cv {
   background-color: transparent !important;
 }
 
+.pscolor {
+  color: var(--global-theme-color) !important;
+}
+
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
