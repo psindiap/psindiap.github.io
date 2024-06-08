@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /pstalks/
+title: PSTalks
 nav: true
 nav_order: 1
 pagination:
@@ -25,13 +25,13 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h2>An unfiltered reflection of my day <i>( And Nothing More )</i></h2>
   </div>
   {% endif %}
 
 {% if site.display_tags or site.display_categories %}
 
-  <div class="tag-category-list">
+  <!-- <div class="tag-category-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
         <li>
@@ -54,7 +54,7 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+  {% endif %} -->
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}

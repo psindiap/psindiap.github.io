@@ -1,11 +1,12 @@
 ---
 layout: cv
-permalink: /cv/
-title: cv
+permalink: /vitae/
+title: Vitae
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 2
+cv_pdf: PARTHA_SARATHI_PURKAYASTHA_CV.pdf
+resume_pdf: PARTHA_SARATHI_PURKAYASTHA_Resume.pdf
+description: "True story"
 toc:
   sidebar: left
 ---

@@ -3,14 +3,8 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
+    <h1 class="post-title"><span class="font-weight-bold">Partha Sarathi</span> Purkayastha</h1>
+    <h5 class="post-description">RF @ MSR India | BITS Pilani CS '24</h5>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -49,12 +43,15 @@ layout: default
     {% endif %}
 
     <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+
+    <!--
+      {% if site.latest_posts.enabled %}
+        <h2>
+          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        </h2>
+        {% include latest_posts.liquid %}
+      {% endif %}
+    -->
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
