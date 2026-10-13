@@ -15,9 +15,9 @@
     "badge": "IJCV",
     "year": 2026,
     "title": "Context Aware Grounded Teacher for Source Free Object Detection",
-    "authors": "Tajamul Ashraf, Rajes Manna*, <strong>Partha Sarathi Purkayastha*</strong>, Tavaheed Tariq, and Janibul Bashir",
+    "authors": "<a href=\"https://www.tajamulashraf.com/\">Tajamul Ashraf</a>, Rajes Manna*, <strong>Partha Sarathi Purkayastha*</strong>, Tavaheed Tariq, and Janibul Bashir",
     "venue": "International Journal of Computer Vision, 134, Article 306 (2026)",
-    "note": "* Rajes Manna and Partha Sarathi Purkayastha contributed equally.",
+    "note": "* Equal Contribution",
     "selected": true,
     "links": [["Paper", "https://doi.org/10.1007/s11263-026-02905-0"]],
     "summary": "A context-aware teacher framework for source-free object detection that addresses class imbalance and unstable pseudo-labels."

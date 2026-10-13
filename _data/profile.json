@@ -28,21 +28,21 @@
       "title": "Research Assistant",
       "place": "ETH SCAI Lab · Zürich / Nottwil, Switzerland",
       "body": "Analyzing multimodal wearable and clinical data for decongestion monitoring in cardiac recovery.",
-      "supervisor": "<a href=\"https://scai.ethz.ch/TheLab/people/diego-paez-granados.html\">Diego Paez-Granados</a>"
+      "supervisor": "<a href=\"https://scai.ethz.ch/TheLab/people/diego-paez-granados.html\">Dr. Diego Paez-Granados</a>"
     },
     {
       "date": "Sep 2025–Sep 2026",
       "title": "Research Intern",
       "place": "ETH LRE Lab · Zürich, Switzerland",
       "body": "Developed a psychologically grounded, dynamic state-aware framework for simulating diverse and evolving student behaviours beyond static personas, enabling evaluation of adaptive LLM tutors across multi-turn interactions. This work led to <a href=\"/publications/#dysas\">DySAS, accepted at REALM @ EMNLP 2026</a>.",
-      "supervisor": "<a href=\"https://inf.ethz.ch/people/person-detail.MjYyNzc4.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html\">Mrinmaya Sachan</a> and <a href=\"https://doheejin.github.io/\">Heejin Do</a>"
+      "supervisor": "<a href=\"https://inf.ethz.ch/people/person-detail.MjYyNzc4.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html\">Prof. Mrinmaya Sachan</a> and <a href=\"https://doheejin.github.io/\">Dr. Heejin Do</a>"
     },
     {
       "date": "Jul 2024–Jun 2025",
       "title": "Research Fellow",
       "place": "Microsoft Research India · Bangalore, India",
       "body": "Developed a privacy taxonomy and curated a dataset for context-dependent, privacy-preserving summarization. Evaluated LLMs using automatic metrics and human judgments, improving privacy adherence over GPT-4o while maintaining summary consistency, relevance, and coherence.",
-      "supervisor": "<a href=\"https://www.microsoft.com/en-us/research/people/akshayn/\">Akshay Nambi</a>"
+      "supervisor": "<a href=\"https://www.microsoft.com/en-us/research/people/akshayn/\">Dr. Akshay Nambi</a>"
     },
     {
       "date": "Jan–Jul 2024",
@@ -56,7 +56,7 @@
       "title": "Research Intern",
       "place": "BITS Pilani · Pilani, India",
       "body": "Built a fundus-image annotation tool covering soft and hard exudates, microaneurysms, hemorrhages, and neovascularization. Collaborated with a hospital to curate a 3,000-image dataset. Applied image processing and custom deep-learning models to automate lesion annotation, achieving over 80% accuracy and specificity.",
-      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/sundaresan-raman/\">Sundaresan Raman</a>"
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/sundaresan-raman/\">Prof. Sundaresan Raman</a>"
     },
     {
       "date": "May–Aug 2023",
@@ -70,7 +70,7 @@
       "title": "Research Intern",
       "place": "Mercedes-Benz · Bangalore, India",
       "body": "Trained customized variational autoencoders for parameter-controlled vehicle-component design generation on a proprietary dataset of over 25,000 data points. Developed comparison heuristics and a web application for researchers to generate custom designs.",
-      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/poonam-goyal/\">Poonam Goyal</a>"
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/poonam-goyal/\">Prof. Poonam Goyal</a>"
     },
     {
       "date": "May–Jul 2022",
@@ -96,11 +96,11 @@
       "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/tanu-shukla/\">Tanu Shukla</a>"
     },
     {
-      "date": "2023",
+      "date": "Jan–Dec 2023",
       "title": "Introduction to Psychology",
       "place": "Teaching Assistant · BITS Pilani",
-      "body": "Supported teaching in introductory psychology.",
-      "supervisor": ""
+      "body": "Guided students through core psychological theories and research methods in weekly classes and doubt-clearing sessions, clarifying concepts and helping them build a strong foundation in introductory psychology.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/tanu-shukla/\">Dr. Tanu Shukla</a>"
     },
     {
       "date": "Jan–May 2022",
