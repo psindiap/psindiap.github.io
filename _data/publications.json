@@ -46,16 +46,5 @@
       ["PDF", "https://arxiv.org/pdf/2607.24800"]
     ],
     "summary": "A diagnostic study of adaptive knowledge-graph retrieval, examining how extra reasoning and trace conditioning can worsen retrieval through ineffective action selection."
-  },
-  {
-    "id": "fake-news",
-    "badge": "IBICA",
-    "year": 2023,
-    "title": "The Role of AI in Combating Fake News and Misinformation",
-    "authors": "Virendra Singh Nirban, Tanu Shukla, <strong>Partha Sarathi Purkayastha</strong>, Nachiket Kotalwar, and Labeeb Ahsan",
-    "venue": "Innovations in Bio-Inspired Computing and Applications (IBICA 2022), LNNS 649, pp. 690–701. Published 2023.",
-    "selected": false,
-    "links": [["Paper", "https://doi.org/10.1007/978-3-031-27499-2_64"]],
-    "summary": "A comparative study of recurrent neural networks and ensemble methods for detecting fake news."
   }
 ]

@@ -136,8 +136,8 @@
       "date": "Oct–Dec 2021",
       "title": "Text-Based Fake News Classification",
       "place": "Natural language processing",
-      "body": "Compared LSTM, Bi-LSTM, and ensemble classifiers for online misinformation detection, achieving over 90% across the reported evaluation metrics. The resulting <a href=\"https://doi.org/10.1007/978-3-031-27499-2_64\">IBICA 2022 paper</a> was published by Springer in 2023.",
-      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/virendra-singh-nirban/\">Virendra Singh Nirban</a> and <a href=\"https://www.bits-pilani.ac.in/pilani/tanu-shukla/\">Tanu Shukla</a>"
+      "body": "Compared LSTM, Bi-LSTM, and ensemble classifiers for online misinformation detection, achieving over 90% across the reported evaluation metrics. This project also led to a conference publication.",
+      "supervisor": ""
     }
   ],
   "awards": [
