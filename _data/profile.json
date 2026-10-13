@@ -136,7 +136,7 @@
       "date": "Oct–Dec 2021",
       "title": "Text-Based Fake News Classification",
       "place": "Natural language processing",
-      "body": "Compared LSTM, Bi-LSTM, and ensemble classifiers for online misinformation detection, achieving over 90% across the reported evaluation metrics. This project also led to a conference publication.",
+      "body": "Compared LSTM, Bi-LSTM, and ensemble classifiers for online misinformation detection, achieving over 90% across the reported evaluation metrics. This work was included in the proceedings of Innovations in Bio-Inspired Computing and Applications (IBICA 2022).",
       "supervisor": ""
     }
   ],
