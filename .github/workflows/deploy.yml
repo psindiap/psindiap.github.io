@@ -7,6 +7,9 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_data/**"
+      - "_bibliography/**"
+      - "_sass/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -33,6 +36,9 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_data/**"
+      - "_bibliography/**"
+      - "_sass/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
