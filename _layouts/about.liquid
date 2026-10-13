@@ -1,73 +1,22 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title"><span class="font-weight-bold">Partha Sarathi</span> Purkayastha</h1>
-    <h5 class="post-description">RF @ MSR India | BITS Pilani CS '24</h5>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
-
-    <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-
-    <!--
-      {% if site.latest_posts.enabled %}
-        <h2>
-          <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-        </h2>
-        {% include latest_posts.liquid %}
-      {% endif %}
-    -->
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-  </article>
-</div>
+<div class="post academic-home">
+<header class="post-header"><h1 class="post-title"><span class="font-weight-bold">Partha Sarathi</span> Purkayastha</h1><p class="post-description">M.Sc. Computer Science at <a href="https://ethz.ch/">ETH Zürich</a></p></header>
+<article>
+<div class="intro-grid">
+<div class="biography">{{ content }}</div>
+<aside class="profile-column" aria-label="Profile and contact">
+<img class="portrait" src="{{ '/assets/img/prof_pic.png' | relative_url }}" alt="Partha Sarathi Purkayastha" width="540" height="540" fetchpriority="high">
+<ul class="profile-links">
+<li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>Zürich, Switzerland</span></li>
+<li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:ppurkayastha@ethz.ch">ppurkayastha@ethz.ch</a></li>
+<li><i class="fa-brands fa-github" aria-hidden="true"></i><a href="https://github.com/psethzp">psethzp</a> <span class="muted">/</span> <a href="https://github.com/psindiap">psindiap</a></li>
+<li><i class="ai ai-google-scholar" aria-hidden="true"></i><a href="https://scholar.google.com/citations?user=xxWQxRYAAAAJ">Google Scholar</a></li>
+<li><i class="fa-brands fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/psindiap/">LinkedIn</a></li>
+<li><i class="fa-regular fa-file-pdf" aria-hidden="true"></i><a href="{{ '/assets/pdf/PARTHA_SARATHI_PURKAYASTHA_CV.pdf' | relative_url }}">Curriculum vitae</a></li>
+</ul></aside></div>
+<section class="home-section" aria-labelledby="news-title"><h2 id="news-title">news</h2>{% include academic-news.liquid %}</section>
+<section class="home-section" aria-labelledby="publications-title"><h2 id="publications-title"><a href="{{ '/publications/' | relative_url }}">selected publications</a></h2>{% include academic-publications.liquid selected=true %}<a class="text-link" href="{{ '/publications/' | relative_url }}">All publications →</a></section>
+<p class="contact-line">Feel free to reach out via <a href="mailto:ppurkayastha@ethz.ch">email</a>.</p>
+</article></div>

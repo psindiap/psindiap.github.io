@@ -1,0 +1,11 @@
+<ol class="academic-publications">
+{% for paper in site.data.publications %}
+{% if include.selected != true or paper.selected %}
+<li id="{{ paper.id }}" class="publication-entry">
+  <div><span class="venue-label">{{ paper.badge }}</span></div>
+  <div><h3>{{ paper.title }}</h3><p class="authors">{{ paper.authors }}</p><p class="publication-venue">{{ paper.venue }}</p>{% if paper.note %}<p class="publication-note">{{ paper.note }}</p>{% endif %}
+  <div class="paper-actions">{% for link in paper.links %}<a class="paper-link" href="{{ link[1] }}">{{ link[0] }}</a>{% endfor %}<details class="paper-summary"><summary>Summary</summary><p>{{ paper.summary }}</p></details></div></div>
+</li>
+{% endif %}
+{% endfor %}
+</ol>

@@ -1,0 +1,214 @@
+{
+  "education": [
+    {
+      "date": "2025–2027 (expected)",
+      "title": "M.Sc. in Computer Science",
+      "place": "ETH Zürich · Switzerland",
+      "body": "Coursework: Probabilistic Artificial Intelligence, Large Language Models, Mixed Reality, AI in Education, Big Data, Information Security Lab, Computational Intelligence Lab, and Computational Statistics.",
+      "supervisor": ""
+    },
+    {
+      "date": "2020–2024",
+      "title": "B.E. in Computer Science",
+      "place": "BITS Pilani · India",
+      "body": "CGPA: <strong>9.83/10</strong>. Director’s Gold Medal; full tuition waiver through the Institute Merit Scholarship for consistently ranking in the top 1%.<br>Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Systems, Theory of Computation, Operating Systems, Computer Networks, Linear Algebra, Vector Calculus, Probability and Statistics, Discrete Mathematics, Artificial Intelligence, Computer Graphics, and Human Computer Interaction.",
+      "supervisor": ""
+    },
+    {
+      "date": "2017–2019",
+      "title": "Secondary education",
+      "place": "South Point School · Guwahati, India",
+      "body": "97.2%.",
+      "supervisor": ""
+    }
+  ],
+  "experience": [
+    {
+      "date": "May 2026–present",
+      "title": "Research Assistant",
+      "place": "ETH SCAI Lab · Zürich / Nottwil, Switzerland",
+      "body": "Analyzing multimodal wearable and clinical data for decongestion monitoring in cardiac recovery.",
+      "supervisor": "<a href=\"https://scai.ethz.ch/TheLab/people/diego-paez-granados.html\">Diego Paez-Granados</a>"
+    },
+    {
+      "date": "Sep 2025–Sep 2026",
+      "title": "Research Intern",
+      "place": "ETH LRE Lab · Zürich, Switzerland",
+      "body": "Developed a psychologically grounded, dynamic state-aware framework for simulating diverse and evolving student behaviours beyond static personas, enabling evaluation of adaptive LLM tutors across multi-turn interactions. This work led to <a href=\"/publications/#dysas\">DySAS, accepted at REALM @ EMNLP 2026</a>.",
+      "supervisor": "<a href=\"https://inf.ethz.ch/people/person-detail.MjYyNzc4.TGlzdC8zMDQsLTg3NDc3NjI0MQ==.html\">Mrinmaya Sachan</a> and <a href=\"https://doheejin.github.io/\">Heejin Do</a>"
+    },
+    {
+      "date": "Jul 2024–Jun 2025",
+      "title": "Research Fellow",
+      "place": "Microsoft Research India · Bangalore, India",
+      "body": "Developed a privacy taxonomy and curated a dataset for context-dependent, privacy-preserving summarization. Evaluated LLMs using automatic metrics and human judgments, improving privacy adherence over GPT-4o while maintaining summary consistency, relevance, and coherence.",
+      "supervisor": "<a href=\"https://www.microsoft.com/en-us/research/people/akshayn/\">Akshay Nambi</a>"
+    },
+    {
+      "date": "Jan–Jul 2024",
+      "title": "Software Engineering Intern",
+      "place": "Sprinklr · Gurgaon, India",
+      "body": "Resolved memory leaks with memlab, reducing memory consumption by over 10%. Implemented server-side rendering with Next.js and GraphQL and end-to-end tests, improving load times by over 20%. Identified render blockers and improved application performance and resilience.",
+      "supervisor": ""
+    },
+    {
+      "date": "Aug 2023–Jan 2024",
+      "title": "Research Intern",
+      "place": "BITS Pilani · Pilani, India",
+      "body": "Built a fundus-image annotation tool covering soft and hard exudates, microaneurysms, hemorrhages, and neovascularization. Collaborated with a hospital to curate a 3,000-image dataset. Applied image processing and custom deep-learning models to automate lesion annotation, achieving over 80% accuracy and specificity.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/sundaresan-raman/\">Sundaresan Raman</a>"
+    },
+    {
+      "date": "May–Aug 2023",
+      "title": "Software Engineering Intern",
+      "place": "Uber · Hyderabad, India",
+      "body": "Built an end-to-end application using React.js, GraphQL, and Go to manage credit types for over 2,000 employees. Migrated financial data to a centralized MySQL database and automated integration and end-to-end tests, reducing onboarding time by two months.",
+      "supervisor": ""
+    },
+    {
+      "date": "Jan–May 2023",
+      "title": "Research Intern",
+      "place": "Mercedes-Benz · Bangalore, India",
+      "body": "Trained customized variational autoencoders for parameter-controlled vehicle-component design generation on a proprietary dataset of over 25,000 data points. Developed comparison heuristics and a web application for researchers to generate custom designs.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/poonam-goyal/\">Poonam Goyal</a>"
+    },
+    {
+      "date": "May–Jul 2022",
+      "title": "Summer Research Intern",
+      "place": "Jio Platforms · Mumbai, India",
+      "body": "Built keyword-based image collection and annotation workflows and an automated bounding-box dataset pipeline. Trained a customized YOLOv7 model on public and proprietary datasets to distinguish people from objects and barriers; successful detections achieved over 90% model confidence.",
+      "supervisor": ""
+    }
+  ],
+  "teaching": [
+    {
+      "date": "Sep 2025–Jun 2026",
+      "title": "AI and Digital Technology",
+      "place": "Teaching Assistant · ETH Zürich",
+      "body": "Developed AI analytics initiatives for executive education, including privacy-preserving machine learning and synthetic-data projects.",
+      "supervisor": "<a href=\"https://inf.ethz.ch/people/people-atoz/person-detail.MjU0ODI4.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html\">Clara Meister</a>"
+    },
+    {
+      "date": "Jan–Dec 2023",
+      "title": "Techniques in Social Research",
+      "place": "Teaching Assistant · BITS Pilani",
+      "body": "Introduced foundational research methodologies and supported the analysis of social research projects.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/tanu-shukla/\">Tanu Shukla</a>"
+    },
+    {
+      "date": "2023",
+      "title": "Introduction to Psychology",
+      "place": "Teaching Assistant · BITS Pilani",
+      "body": "Supported teaching in introductory psychology.",
+      "supervisor": ""
+    },
+    {
+      "date": "Jan–May 2022",
+      "title": "Microprocessors and Interfacing",
+      "place": "Teaching Assistant · BITS Pilani",
+      "body": "Conducted laboratory sessions on MASM-based assembly programming and guided hands-on interfacing exercises.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/vinay-chamola/\">Vinay Chamola</a>"
+    }
+  ],
+  "projects": [
+    {
+      "date": "Sep 2025–Jan 2026",
+      "title": "NeuroReach VR",
+      "place": "Mixed-reality rehabilitation for stroke recovery",
+      "body": "Built a pass-through mixed-reality system on Meta Quest 3S with Logitech MX Ink for gross- and fine-motor training. Added clinician-readable event-level CSV logging. A 10-user pilot achieved a System Usability Scale score of 79.7/100.",
+      "supervisor": "<a href=\"https://sms.hest.ethz.ch/the-group/team/marwen-mokni.html\">Marwen Mokni</a> and <a href=\"https://www.linkedin.com/in/christoph-bauer-9bb14b212/\">Christoph Bauer</a>"
+    },
+    {
+      "date": "Oct–Dec 2023",
+      "title": "Systemic Diabetic Retinopathy Analysis",
+      "place": "Machine learning for healthcare",
+      "body": "Developed a portal for studying systemic factors in diabetic retinopathy. Compared TabNet and DeepForests on tabular data across hospitals in India and Hong Kong, achieving over 80% model-testing accuracy.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/sundaresan-raman/\">Sundaresan Raman</a>"
+    },
+    {
+      "date": "Jan–May 2023",
+      "title": "Dynamic Third-Person Shooter",
+      "place": "Game development",
+      "body": "Built a 3D open-world game in C# with missions, day–night cycles, and an inventory system. Integrated Blender assets, Unity animations, and Cinemachine camera controls.",
+      "supervisor": ""
+    },
+    {
+      "date": "Oct–Dec 2021",
+      "title": "Text-Based Fake News Classification",
+      "place": "Natural language processing",
+      "body": "Compared LSTM, Bi-LSTM, and ensemble classifiers for online misinformation detection, achieving over 90% across the reported evaluation metrics. The resulting <a href=\"https://doi.org/10.1007/978-3-031-27499-2_64\">IBICA 2022 paper</a> was published by Springer in 2023.",
+      "supervisor": "<a href=\"https://www.bits-pilani.ac.in/pilani/virendra-singh-nirban/\">Virendra Singh Nirban</a> and <a href=\"https://www.bits-pilani.ac.in/pilani/tanu-shukla/\">Tanu Shukla</a>"
+    }
+  ],
+  "awards": [
+    {
+      "date": "Jan–Apr 2026",
+      "title": "ASIA 2026 Data Challenge · Track 2 Winner",
+      "place": "American Spinal Injury Association",
+      "body": "Won the longitudinal ISNCSCI imputation track, reconstructing full neurological sensory examinations from expedited assessments and baseline examinations. Built a leakage-safe pipeline with target-wise TabPFNv2.5 bagging, copy-through, symmetry, modality, and anchor post-processing.",
+      "supervisor": "<a href=\"https://scai.ethz.ch/TheLab/people/diego-paez-granados.html\">Diego Paez-Granados</a>"
+    },
+    {
+      "date": "2024",
+      "title": "Director’s Gold Medal",
+      "place": "BITS Pilani",
+      "body": "Graduated with a CGPA of 9.83/10.",
+      "supervisor": ""
+    },
+    {
+      "date": "2020–2024",
+      "title": "Institute Merit Scholarship",
+      "place": "BITS Pilani",
+      "body": "Full tuition waiver for consistently ranking in the top 1% of the institute.",
+      "supervisor": ""
+    },
+    {
+      "date": "Jun–Jul 2022",
+      "title": "Machine Learning Summer School",
+      "place": "Amazon",
+      "body": "Selected for and completed an integrated machine-learning training programme with Amazon experts.",
+      "supervisor": ""
+    }
+  ],
+  "community": [
+    {
+      "date": "Oct–Nov 2024",
+      "title": "Volunteer · Vision Empowerment",
+      "place": "Microsoft Research India · Bangalore",
+      "body": "Designed Braille-based learning aids to help children with visual impairments learn basic mathematics through haptic feedback.",
+      "supervisor": ""
+    },
+    {
+      "date": "Jan–Dec 2022",
+      "title": "Publicity Coordinator · Arunodoi",
+      "place": "BITS Pilani",
+      "body": "Led photo- and video-editing teams to promote Northeast India’s cultural awareness and community engagement.",
+      "supervisor": ""
+    },
+    {
+      "date": "Nov 2021–Jan 2022",
+      "title": "Volunteer · Indian Red Cross Society",
+      "place": "BITS Pilani",
+      "body": "Helped organize a two-day blood donation camp with over 3,000 attendees and over 800 donations.",
+      "supervisor": ""
+    }
+  ],
+  "skills": [
+    [
+      "Programming",
+      "Python, Java, TypeScript / JavaScript, C / C++, Go, SQL"
+    ],
+    [
+      "Machine learning & data",
+      "PyTorch, Transformers, NumPy, Pandas, Plotly, OpenCV, Keras"
+    ],
+    [
+      "Web development",
+      "Node.js / Express, React / Next.js, GraphQL, Tailwind CSS"
+    ],
+    [
+      "Tools",
+      "LaTeX, GitHub, Docker, Postman, MongoDB"
+    ]
+  ]
+}

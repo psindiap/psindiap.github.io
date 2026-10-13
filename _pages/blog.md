@@ -2,7 +2,7 @@
 layout: default
 permalink: /pstalks/
 title: PSTalks
-nav: true
+nav: false
 nav_order: 1
 pagination:
   enabled: true
