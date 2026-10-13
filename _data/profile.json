@@ -194,21 +194,9 @@
     }
   ],
   "skills": [
-    [
-      "Programming",
-      "Python, Java, TypeScript / JavaScript, C / C++, Go, SQL"
-    ],
-    [
-      "Machine learning & data",
-      "PyTorch, Transformers, NumPy, Pandas, Plotly, OpenCV, Keras"
-    ],
-    [
-      "Web development",
-      "Node.js / Express, React / Next.js, GraphQL, Tailwind CSS"
-    ],
-    [
-      "Tools",
-      "LaTeX, GitHub, Docker, Postman, MongoDB"
-    ]
+    ["Programming", "Python, Java, TypeScript / JavaScript, C / C++, Go, SQL"],
+    ["Machine learning & data", "PyTorch, Transformers, NumPy, Pandas, Plotly, OpenCV, Keras"],
+    ["Web development", "Node.js / Express, React / Next.js, GraphQL, Tailwind CSS"],
+    ["Tools", "LaTeX, GitHub, Docker, Postman, MongoDB"]
   ]
 }

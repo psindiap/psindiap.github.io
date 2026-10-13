@@ -1,1 +1,12 @@
-<div class="academic-news"><table><tbody>{% for update in site.data.updates %}<tr><th scope="row">{{ update.date }}</th><td>{{ update.text }}</td></tr>{% endfor %}</tbody></table></div>
+<div class="academic-news">
+  <table>
+    <tbody>
+      {% for update in site.data.updates %}
+        <tr>
+          <th scope="row">{{ update.date }}</th>
+          <td>{{ update.text }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

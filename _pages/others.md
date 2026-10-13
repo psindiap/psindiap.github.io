@@ -22,4 +22,3 @@ description: "Projects, awards, community activities, and life beyond research."
 ## beyond research
 
 I enjoy fiction and non-fiction, sitcoms, and thrillers with a touch of horror. I also follow cricket, chess, and WWE, and enjoy keeping up with new ideas and technology.
-

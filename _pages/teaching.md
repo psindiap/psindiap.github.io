@@ -12,4 +12,3 @@ description: "Teaching, mentoring, and academic service."
 ## academic service
 
 **Program Committee Member, 2026:** AI4GOOD @ ICML, FAGEN @ ICML, and REALM @ EMNLP.
-

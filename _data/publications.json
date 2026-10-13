@@ -7,12 +7,7 @@
     "authors": "<strong>Partha Sarathi Purkayastha</strong>",
     "venue": "Artificial Intelligence in Education (AIED 2026), Springer LNAI 16583",
     "selected": true,
-    "links": [
-      [
-        "Paper",
-        "https://doi.org/10.1007/978-3-032-29760-0_45"
-      ]
-    ],
+    "links": [["Paper", "https://doi.org/10.1007/978-3-032-29760-0_45"]],
     "summary": "Policies for deciding when to invoke verification under a budget, with the goal of making LLM tutoring actions more reliable."
   },
   {
@@ -24,12 +19,7 @@
     "venue": "International Journal of Computer Vision, 134, Article 306 (2026)",
     "note": "* Rajes Manna and Partha Sarathi Purkayastha contributed equally.",
     "selected": true,
-    "links": [
-      [
-        "Paper",
-        "https://doi.org/10.1007/s11263-026-02905-0"
-      ]
-    ],
+    "links": [["Paper", "https://doi.org/10.1007/s11263-026-02905-0"]],
     "summary": "A context-aware teacher framework for source-free object detection that addresses class imbalance and unstable pseudo-labels."
   },
   {
@@ -40,12 +30,7 @@
     "authors": "<strong>Partha Sarathi Purkayastha</strong> and <a href=\"https://doheejin.github.io/\">Heejin Do</a>",
     "venue": "Research on Agent Language Models (REALM) Workshop at EMNLP 2026 · Accepted",
     "selected": true,
-    "links": [
-      [
-        "Workshop",
-        "https://realm-workshop.github.io/accepted_papers/#archival"
-      ]
-    ],
+    "links": [["Workshop", "https://realm-workshop.github.io/accepted_papers/#archival"]],
     "summary": "Psychologically grounded student simulation with evolving states, designed to evaluate adaptive LLM tutors across multi-turn interactions."
   },
   {
@@ -57,14 +42,8 @@
     "venue": "Failure Modes in Agentic AI (FAGEN) Workshop at ICML 2026 · Accepted",
     "selected": true,
     "links": [
-      [
-        "arXiv",
-        "https://arxiv.org/abs/2607.24800"
-      ],
-      [
-        "PDF",
-        "https://arxiv.org/pdf/2607.24800"
-      ]
+      ["arXiv", "https://arxiv.org/abs/2607.24800"],
+      ["PDF", "https://arxiv.org/pdf/2607.24800"]
     ],
     "summary": "A diagnostic study of adaptive knowledge-graph retrieval, examining how extra reasoning and trace conditioning can worsen retrieval through ineffective action selection."
   },
@@ -76,12 +55,7 @@
     "authors": "Virendra Singh Nirban, Tanu Shukla, <strong>Partha Sarathi Purkayastha</strong>, Nachiket Kotalwar, and Labeeb Ahsan",
     "venue": "Innovations in Bio-Inspired Computing and Applications (IBICA 2022), LNNS 649, pp. 690–701. Published 2023.",
     "selected": false,
-    "links": [
-      [
-        "Paper",
-        "https://doi.org/10.1007/978-3-031-27499-2_64"
-      ]
-    ],
+    "links": [["Paper", "https://doi.org/10.1007/978-3-031-27499-2_64"]],
     "summary": "A comparative study of recurrent neural networks and ensemble methods for detecting fake news."
   }
 ]
