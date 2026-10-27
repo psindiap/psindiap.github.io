@@ -4,7 +4,13 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          <img src="{{ '/assets/img/psp-logo.png' | relative_url }}" alt="" width="34" height="34" style="object-fit: contain; vertical-align: middle; margin-right: 9px;">
+          <img
+            src="{{ '/assets/img/psp-logo.png' | relative_url }}"
+            alt=""
+            width="34"
+            height="34"
+            style="object-fit: contain; vertical-align: middle; margin-right: 9px;"
+          >
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
