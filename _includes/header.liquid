@@ -3,9 +3,8 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/" style="display: inline-flex; align-items: center; gap: 9px;">
-          <img src="{{ '/assets/img/psp-logo.png' | relative_url }}" alt="" width="34" height="34" style="flex: 0 0 34px; object-fit: contain;">
-          <span>
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <span style="position: relative; display: inline-block; max-width: 100%;">
             {% if site.title == 'blank' %}
               {% if site.first_name %}
                 <span class="font-weight-bold">
@@ -21,6 +20,13 @@
             {% else %}
               {{- site.title -}}
             {% endif %}
+            <img
+              src="{{ '/assets/img/psp-logo.png' | relative_url | bust_file_cache }}"
+              alt=""
+              width="30"
+              height="30"
+              style="position: absolute; left: calc(100% + 9px); top: 50%; transform: translateY(-50%); max-width: none; object-fit: contain;"
+            >
           </span>
         </a>
       {% elsif site.enable_navbar_social %}
