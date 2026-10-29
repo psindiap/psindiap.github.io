@@ -6,14 +6,9 @@ layout: default
     <h1 class="post-title">
       <span class="font-weight-bold">Partha Sarathi</span>
       <span style="position: relative; display: inline-block;"
-        >Purkayastha<img
-          src="{{ '/assets/img/psp-logo.png' | relative_url | bust_file_cache }}"
-          alt=""
-          width="56"
-          height="56"
-          style="position: absolute; left: calc(100% + 10px); top: 45%; transform: translateY(-50%); max-width: none; object-fit: contain;"
-          fetchpriority="high"
-      ></span>
+        >Purkayastha
+        {%- include psp-logo.liquid size=56 style="position: absolute; left: calc(100% + 10px); top: 45%; transform: translateY(-50%); max-width: none; object-fit: contain;" -%}
+      </span>
     </h1>
     <p class="post-description">
       M.Sc. Computer Science at <a href="https://ethz.ch/" style="color: var(--global-theme-color);">ETH Zürich</a> (D-INFK)
