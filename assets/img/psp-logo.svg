@@ -6,12 +6,18 @@
   </desc>
   <style>
     .psp-logo-tip {
-      fill: var(--global-text-color, #343036);
+      fill: #343036;
     }
     @media (prefers-color-scheme: dark) {
       .psp-logo-tip {
-        fill: var(--global-text-color, #f4f0e8);
+        fill: #a79a87;
       }
+    }
+    html[data-theme="light"] .psp-logo-tip {
+      fill: #343036;
+    }
+    html[data-theme="dark"] .psp-logo-tip {
+      fill: #a79a87;
     }
   </style>
   <g transform="translate(120 690) rotate(37.80341272)">
