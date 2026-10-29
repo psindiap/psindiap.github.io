@@ -48,6 +48,15 @@
     <path d="M1008 587 L1177 640 L1008 693 L996 667 L1006 640 L996 613 Z" fill="#B99A61" />
     <path class="psp-logo-tip" d="M1105 617 L1177 640 L1105 663 L1099 640 Z" fill="#343036" />
     <path
+      class="psp-logo-nib-edge"
+      d="M1105 617 L1099 640 L1105 663"
+      fill="none"
+      stroke="#3D3835"
+      stroke-width="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
       id="B03-pencil-ppg"
       d="M330 640 H422 C434 640 433 609 447 609 C462 609 466 633 476 633 C482 633 482 626 490 626 C501 626 504 640 522 640 H636"
       fill="none"
