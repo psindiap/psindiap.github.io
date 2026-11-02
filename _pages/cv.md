@@ -7,7 +7,7 @@ nav_order: 5
 description: "Education, research, engineering, teaching, and service."
 ---
 
-<a class="download-cv" href="{{ '/assets/pdf/PARTHA_SARATHI_PURKAYASTHA_CV.pdf' | relative_url }}"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> Download CV <span>(PDF · October 2026)</span></a>
+<a class="download-cv" href="{{ '/assets/pdf/PARTHA_SARATHI_PURKAYASTHA_CV.pdf' | relative_url }}"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> Download CV <span>(PDF · November 2026)</span></a>
 
 ## research interests
 
